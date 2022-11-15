@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="828ef496-333d-4a94-bf02-344e14712ac0" name="Changes" comment="" />
+    <list default="true" id="828ef496-333d-4a94-bf02-344e14712ac0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FallingBallGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FallingBallGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FallingObjectScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FallingObjectScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/App.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,7 +29,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\cutec\OneDrive\Documents\GitHub\FallingBallGame -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\cutec\OneDrive\Documents\GitHub\FallingBallGame" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -67,6 +67,7 @@
       <updated>1668443344557</updated>
       <workItem from="1668443351561" duration="491000" />
       <workItem from="1668443879432" duration="818000" />
+      <workItem from="1668475509106" duration="152000" />
     </task>
     <servers />
   </component>
