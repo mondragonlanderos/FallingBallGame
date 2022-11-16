@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
     <list default="true" id="828ef496-333d-4a94-bf02-344e14712ac0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FallingBallGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FallingBallGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FallingObjectScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FallingObjectScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StateManagerPrototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StateManagerPrototype.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/CountingDownState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/CountingDownState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/FallingGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/FallingGameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/FallingGameStateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/FallingGameStateManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/GameOverState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/GameOverState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/PlayingGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/PlayingGameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
-=======
-    <list default="true" id="2316e28b-ba8c-41e7-b2a8-1ad7308dd5da" name="Changes" comment="" />
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SampleAchievementEvents.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-<<<<<<< Updated upstream
   <component name="ProjectId" id="2HXtdHZlhnAnJeqGhNSOHUSXXHm" />
-=======
-  <component name="ProjectId" id="2HXr5Pkcurd0ToZy4mVweFx8sJi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
->>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,20 +39,18 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-<<<<<<< Updated upstream
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\cutec\OneDrive\Documents\GitHub\FallingBallGame -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\cutec\OneDrive\Documents\GitHub\FallingBallGame" />
-=======
-      <option name="EXE_PATH" value="C:\Program Files\Unity 2021.3.8f1\Editor\Unity.exe" />
-      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\jyoon\Documents\CPSC 236 fall 2021\FallingBallGame&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\jyoon\Documents\CPSC 236 fall 2021\FallingBallGame" />
->>>>>>> Stashed changes
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
@@ -75,7 +79,6 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< Updated upstream
       <changelist id="828ef496-333d-4a94-bf02-344e14712ac0" name="Changes" comment="" />
       <created>1668443344557</created>
       <option name="number" value="Default" />
@@ -84,15 +87,9 @@
       <workItem from="1668443351561" duration="491000" />
       <workItem from="1668443879432" duration="818000" />
       <workItem from="1668475509106" duration="152000" />
-=======
-      <changelist id="2316e28b-ba8c-41e7-b2a8-1ad7308dd5da" name="Changes" comment="" />
-      <created>1668442090880</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1668442090880</updated>
-      <workItem from="1668442105541" duration="3927000" />
-      <workItem from="1668528292328" duration="1169000" />
->>>>>>> Stashed changes
+      <workItem from="1668583439716" duration="1412000" />
+      <workItem from="1668603306895" duration="3151000" />
+      <workItem from="1668619023894" duration="645000" />
     </task>
     <servers />
   </component>
