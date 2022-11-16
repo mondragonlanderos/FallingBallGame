@@ -22,23 +22,24 @@ public class AchievementUIBehavior : MonoBehaviour
     }
 
     //Call this in your Achievement script to turn on a check to signify the achievement has been unlocked.
-    public void ShowCheckOn(int num)
+    public void ChangeCheckTo(int achievementNumber, bool status)
     {
-        switch(num)
+        switch (achievementNumber)
         {
-            case 1: 
-                achievementCheck1.SetActive(true);
+            case 1:
+                isAchievement1Unlocked = status;
                 break;
             case 2:
-                achievementCheck2.SetActive(true);
+                isAchievement2Unlocked = status;
                 break;
             case 3:
-                achievementCheck3.SetActive(true);
+                isAchievement3Unlocked = status;
                 break;
         }
+        updateChecks();
     }
-
-    //Call this to change the checks for this screen
+    
+    //This is called in order to change the visual checks✅ on this screen
     private void updateChecks()
     {
         achievementCheck1.SetActive(isAchievement1Unlocked);
