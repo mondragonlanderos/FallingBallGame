@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="828ef496-333d-4a94-bf02-344e14712ac0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FallingBallGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FallingBallGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AchievementsTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AchievementsTestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Achievements.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Achievements.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StateManagerPrototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StateManagerPrototype.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/CountingDownState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/CountingDownState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/FallingGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/FallingGameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/FallingGameStateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/FallingGameStateManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/GameOverState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/GameOverState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/PlayingGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game State Manager/PlayingGameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +48,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\cutec\OneDrive\Documents\GitHub\FallingBallGame -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\cutec\OneDrive\Documents\GitHub\FallingBallGame" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -82,6 +89,7 @@
       <workItem from="1668475509106" duration="152000" />
       <workItem from="1668583439716" duration="1412000" />
       <workItem from="1668603306895" duration="3151000" />
+      <workItem from="1668619023894" duration="645000" />
     </task>
     <servers />
   </component>

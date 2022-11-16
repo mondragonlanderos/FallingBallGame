@@ -10,7 +10,7 @@ public class CountingDownState : FallingGameState
     // Overrides parent method to enter the countdown state
     public override void EnterMyState()
     {
-        // TODO: Activate countdown panel
+        GameStateManager.CountdownCanvas.SetActive(true);
         // TODO: Start timer
         Debug.Log("Entering counting down");
     }
@@ -18,7 +18,7 @@ public class CountingDownState : FallingGameState
     // Overrides parent method to exit the countdown state
     public override void ExitMyState()
     {
-        // TODO: Deactivate countdown panel
+        GameStateManager.CountdownCanvas.SetActive(false);
         Debug.Log("Exiting counting down");
     }
 

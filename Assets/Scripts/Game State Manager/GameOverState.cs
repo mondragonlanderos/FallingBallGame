@@ -10,14 +10,14 @@ public class GameOverState : FallingGameState
 
     public override void EnterMyState()
     {
-        // TODO: Activate results panel
+        GameStateManager.GameOverCanvas.SetActive(true);
         Debug.Log("Entering Game over");
     }
     
 
     public override void ExitMyState()
     {
-        // TODO: Deactivate game over panel
+        GameStateManager.GameOverCanvas.SetActive(false);
         Debug.Log("Exiting game over");
     }
 }

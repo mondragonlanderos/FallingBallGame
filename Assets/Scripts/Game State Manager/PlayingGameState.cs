@@ -10,7 +10,7 @@ public class PlayingGameState : FallingGameState
 
     public override void EnterMyState()
     {
-        // TODO: Activate game panel
+        GameStateManager.GameplayCanvas.SetActive(true);
         // TODO: Start game timer
         Debug.Log("Entering playing game");
     }
@@ -18,7 +18,7 @@ public class PlayingGameState : FallingGameState
 
     public override void ExitMyState()
     {
-        // TODO: Deactivate game panel
+        GameStateManager.GameplayCanvas.SetActive(false);
         Debug.Log("Exiting playing game");
     }
     

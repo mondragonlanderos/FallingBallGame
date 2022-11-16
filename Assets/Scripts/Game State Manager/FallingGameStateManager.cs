@@ -11,6 +11,10 @@ public class FallingGameStateManager : MonoBehaviour
 
     private FallingGameState currState;
 
+    public GameObject CountdownCanvas;
+    public GameObject GameplayCanvas;
+    public GameObject GameOverCanvas;
+    
     // public ApplicationStateManager AppStateManager;
     // public GameStartTimer CountDownTimer;
     // public ScoreKeeper Scorekeeper; 
@@ -18,7 +22,7 @@ public class FallingGameStateManager : MonoBehaviour
     // TODO: Hook up to app state manager
     // TODO: Add timer
     // TODO: Add ScoreKeeper
-    
+
 
     private void Awake()
     {
@@ -63,17 +67,14 @@ public class FallingGameStateManager : MonoBehaviour
     {
         if (currState == countingDownState)
         {
-            Debug.Log("Moving from countingDownState to playingGameState");
             EnterState(playingGameState);
         }
         else if (currState == playingGameState)
         {
-            Debug.Log("Moving from playingGameState to gameOverState");
             EnterState(gameOverState);
         }
         else if (currState == gameOverState)
         {
-            Debug.Log("Moving from gameOverState to countingDownState");
             EnterState(countingDownState);
         }
     }
