@@ -34,6 +34,6 @@ class scoreUI{
 		}
 		result.text = "Final Score: " + scored + "/" + total + "\n";
 
-		grade.text = letter;
+		grade.text = letter.ToString();
   }
 }
