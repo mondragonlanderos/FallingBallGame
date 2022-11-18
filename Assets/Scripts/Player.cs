@@ -5,15 +5,15 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    private GameObject paddle;
-    float speed = 5f;
+    private GameObject player;
+    float speed = 8f;
     
     
 
     // Start is called before the first frame update
     void Start()
     {
-        paddle = GameObject.FindWithTag("Paddle");
+        player = GameObject.FindWithTag("Player");
     }
 
     public void OnInputA()

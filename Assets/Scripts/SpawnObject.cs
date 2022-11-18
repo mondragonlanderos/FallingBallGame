@@ -8,6 +8,8 @@ public class SpawnObject : MonoBehaviour
     [SerializeField] float secondSpawn = 0.5f;
     [SerializeField] float xMin;
     [SerializeField] float xMax;
+
+    private float yVal = 6;
     //public GameObject GameObjectPrefab;
     //public float Radius = 1;
 
@@ -22,7 +24,7 @@ public class SpawnObject : MonoBehaviour
         while (true)
         {
             var xPos = Random.Range(xMin, xMax);
-            var position = new Vector3(xPos, transform.position.y);
+            var position = new Vector3(xPos, yVal);
             GameObject gameObject = Instantiate(gameObjectPrefab[Random.Range(0, gameObjectPrefab.Length)], position, Quaternion.identity);
             yield return new WaitForSeconds(secondSpawn);
             Destroy(gameObject, 5f);
