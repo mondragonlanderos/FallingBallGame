@@ -17,12 +17,8 @@ public class FallingGameStateManager : MonoBehaviour
     
     // public ApplicationStateManager AppStateManager;
     // public GameStartTimer CountDownTimer;
-    // public ScoreKeeper Scorekeeper; 
-    
-    // TODO: Hook up to app state manager
+    public Scoring Scorekeeper;
     // TODO: Add timer
-    // TODO: Add ScoreKeeper
-
 
     private void Awake()
     {
@@ -78,4 +74,24 @@ public class FallingGameStateManager : MonoBehaviour
             EnterState(countingDownState);
         }
     }
+    
+    public void ObjectCollected()
+    {
+        Scorekeeper.addScore();
+        Scorekeeper.addMaxPoints();
+        if (Scorekeeper.maxPoints == 5)
+        {
+            EnterState(gameOverState);
+        }
+    }
+    
+    public void ObjectMissed()
+    {
+        Scorekeeper.addMaxPoints();
+        if (Scorekeeper.maxPoints == 5)
+        {
+            EnterState(gameOverState);
+        }
+    }
+    
 }

@@ -12,14 +12,12 @@ public class CountingDownState : FallingGameState
     {
         GameStateManager.CountdownCanvas.SetActive(true);
         // TODO: Start timer
-        Debug.Log("Entering counting down");
     }
     
     // Overrides parent method to exit the countdown state
     public override void ExitMyState()
     {
         GameStateManager.CountdownCanvas.SetActive(false);
-        Debug.Log("Exiting counting down");
     }
 
     // Updates the countdown timer to begin counting down

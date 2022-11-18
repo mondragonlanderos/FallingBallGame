@@ -13,20 +13,17 @@ public class Scoring : MonoBehaviour
     
     //reference to UI 
 
-    void Start()
-    {
-        
-    }
-
     public void addScore()
     {
         playerScore++;
+        Debug.Log("Current score: " + playerScore);
         //score UI update Score (player Score) 
     }
 
     public void addMaxPoints()
     {
         maxPoints++;
+        Debug.Log("Current total: " + maxPoints);
     }
 
     public string calculateResult()

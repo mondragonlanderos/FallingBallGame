@@ -15,22 +15,22 @@ class scoreUI{
   }
 
   public void DisplayLetterGrade(int scored, int total, float letterGrade){
-    char letter;
+    string letter;
 
     if((letterGrade <= 100) && (letterGrade > 89)){
-			letter = 'A';
+			letter = "A";
 		}
 		else if((letterGrade <= 89) && (letterGrade > 79)){
-			letter = 'B';
+			letter = "B";
 		}
 		else if((letterGrade <= 79) && (letterGrade > 69)){
-			letter = 'C';
+			letter = "C";
 		}
 		else if((letterGrade <= 69) && (letterGrade > 59)){
-			letter = 'D';
+			letter = "D";
 		}
 		else{
-			letter = 'F';
+			letter = "F";
 		}
 		result.text = "Final Score: " + scored + "/" + total + "\n";
 
